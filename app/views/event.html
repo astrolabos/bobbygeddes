@@ -1,0 +1,16 @@
+<form>
+    <span>ID: {{ event.id }}</span>
+
+    <h2>Title</h2>
+    <input type="text" ng-model="event.title" /><br /><br />
+
+    <h3>Locations</h3>
+    <ul>
+        <li ng-repeat="location in event.locations"><input type="text" ng-model="location" /></li>
+    </ul>
+
+    <h3>Dates</h3>
+    <ul>
+        <li ng-repeat="date in event.dates"><input type="text"  ng-model="date" /></li>
+    </ul>
+</form>
