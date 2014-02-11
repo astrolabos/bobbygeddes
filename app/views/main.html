@@ -1,19 +1,15 @@
 <h1>Check for bind</h1>
-<ul>
-    <li ng-repeat="thing in awesomeThings">{{ thing }}</li>
-</ul>
-
 <form>
     <h2>Title</h2>
-    <input type="text" ng-model="title" /><br /><br />
+    <input type="text" ng-model="events.title" /><br /><br />
 
     <h3>Locations</h3>
     <ul>
-        <li ng-repeat="location in locations"><input type="text" ng-model="location" /></li>
+        <li ng-repeat="location in events.locations"><input type="text" ng-model="location" /></li>
     </ul>
 
     <h3>Dates</h3>
     <ul>
-        <li ng-repeat="date in dates"><input type="text"  ng-model="date" /></li>
+        <li ng-repeat="date in events.dates"><input type="text"  ng-model="date" /></li>
     </ul>
 </form>
