@@ -12,6 +12,10 @@ angular.module('bobbygeddesApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/event/:eventId', {
+        templateUrl: 'views/event.html',
+        controller: 'EventCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
