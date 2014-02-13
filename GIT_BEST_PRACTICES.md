@@ -1,20 +1,20 @@
 Production branch
 
-master
+    master
 
 Development branch
 
-develop
+    develop
 
 Branch naming convention.
 
-master
-hotfix-name_of
-version-name_of
-feature-name_of
-release-name_of
-support-name_of
-lab-name_of
+    master
+    hotfix-name_of
+    version-name_of
+    feature-name_of
+    release-name_of
+    support-name_of
+    lab-name_of
 Branch names must be in all lowercase.
 
 Danger zone
